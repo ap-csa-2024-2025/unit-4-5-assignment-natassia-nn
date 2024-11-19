@@ -40,16 +40,41 @@ public class Main
 
   public static void uprightNumberTriangle(int N)
   {
-    // code solution here
+    for (int row = 1; row <= N; row++)
+    {
+      for (int num = 1; num<=row; num++)
+      {
+        System.out.print(num + " ");
+      }
+      System.out.println();
+    }
   }
 
   public static void starTree()
   {
-    // code solution here
+    int num_of_spaces = 0;
+    for (int row = 9; row>= 1; row--)
+    {
+        for (int space = 0; space < num_of_spaces; spaces)
+    }
+    
+    for ()
+    {
+
+    }
+
+    System.out.println();
   }
 
   public static void multTable()
   {
+    for (int row = 1; row <= 10; row++)
+    {
+      for (int col = 1; col <= 10; col++)
+      {
+
+      }
+    }
     // code solution here
   }
 }
